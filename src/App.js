@@ -1,10 +1,11 @@
 import './App.css';
+import { Button } from 'react-bootstrap';
 
 function App() {
   return (
       <div className="App">
         <header className="App-header">
-          <button onClick={callApi}>Call API</button>
+          <Button onClick={callApi}>Call API</Button>
         </header>
       </div>
   );
