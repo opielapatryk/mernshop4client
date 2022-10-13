@@ -1,9 +1,10 @@
 import './App.css';
 import { Button } from 'react-bootstrap';
-
+import CollapsibleExample from './components/Navbar'
 function App() {
   return (
       <div className="App">
+        <CollapsibleExample></CollapsibleExample>
         <header className="App-header">
           <Button onClick={callApi}>Call API</Button>
         </header>
