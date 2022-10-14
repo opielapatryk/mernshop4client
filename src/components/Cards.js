@@ -13,7 +13,7 @@ function AppCard() {
           <Card.Title>Legrand</Card.Title>
           <Card.Title>3p b 10</Card.Title>
         </Card.Body>
-        <Card.Footer>
+        <Card.Footer >
           <small className="text-muted">999$</small>
         </Card.Footer>
       </Card>
