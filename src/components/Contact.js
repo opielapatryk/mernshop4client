@@ -44,7 +44,7 @@ function Contact() {
       <Form.Group className="mb-3" controlId="formBasicCheckbox">
         <Form.Check type="checkbox" label="Check me out" />
       </Form.Group>
-      <Button variant="danger" type="submit" style={{marginBottom:"3%"}}>
+      <Button variant="danger" type="submit" onClick={callApi} style={{marginBottom:"3%"}}>
         Submit
       </Button>
     </Form>
@@ -55,5 +55,9 @@ function Contact() {
      
   );
 }
-
+function callApi() {
+    fetch('https://mernshop4server.herokuapp.com/', { method: 'GET' })
+        .then(data => data.json())
+        .then(json => alert(JSON.stringify(json)))
+}
 export default Contact;
