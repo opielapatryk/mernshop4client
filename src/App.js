@@ -2,16 +2,19 @@ import './App.css';
 // import { Button } from 'react-bootstrap';
 import AppNavbar from './components/Navbar'
 // import AppCarousel from './components/Carousel'
-import AppCard from './components/Cards'
+// import AppCard from './components/Cards'
+import Contact  from './components/Contact';
+// import Footer from './components/Footer'
 function App() {
   return (
       <div className="App">
         <AppNavbar></AppNavbar>
-        {/* <AppCarousel></AppCarousel> */}
-        <AppCard></AppCard>
-        <header className="App-header">
+        <Contact></Contact>
+        {/* <header className="App-header"> */}
           {/* <Button onClick={callApi}>Call API</Button> */}
-        </header>
+        {/* </header> */}
+        {/* <AppCarousel></AppCarousel> */}
+        {/* <Footer></Footer> */}
       </div>
   );
 }

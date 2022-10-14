@@ -22,10 +22,10 @@ function AppNavbar() {
             <Button variant="outline-danger">Search</Button>
           </Form>
           <Nav className="ms-auto">
-            <Nav.Link href="#aboutus">About us</Nav.Link>
+            <Nav.Link href="#aboutus">Contact</Nav.Link>
             <Nav.Link href="#products">Products</Nav.Link>
             <Nav.Link href="#rodo">RODO</Nav.Link>
-            <Nav.Link href="#contacts">Contact</Nav.Link>
+            <Nav.Link href="#contacts">About us</Nav.Link>
             <NavDropdown title="Language" id="basic-nav-dropdown">
               <NavDropdown.Item href="#English">English</NavDropdown.Item>
               <NavDropdown.Item href="#Polski">Polski</NavDropdown.Item>
