@@ -1,7 +1,7 @@
 import './App.css';
-import { Button } from 'react-bootstrap';
+// import { Button } from 'react-bootstrap';
 import AppNavbar from './components/Navbar'
-import AppCarousel from './components/Carousel'
+// import AppCarousel from './components/Carousel'
 import AppCard from './components/Cards'
 function App() {
   return (
@@ -16,10 +16,10 @@ function App() {
   );
 }
 
-function callApi() {
-    fetch('https://mernshop4server.herokuapp.com/', { method: 'GET' })
-        .then(data => data.json())
-        .then(json => alert(JSON.stringify(json)))
-}
+// function callApi() {
+//     fetch('https://mernshop4server.herokuapp.com/', { method: 'GET' })
+//         .then(data => data.json())
+//         .then(json => alert(JSON.stringify(json)))
+// }
 
 export default App;
