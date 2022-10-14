@@ -1,8 +1,10 @@
 import Button from 'react-bootstrap/Button';
 import Form from 'react-bootstrap/Form';
+import AppNavBar from './Navbar'
 function Contact() {
   return (
     <>
+    <AppNavBar></AppNavBar>
     <div style={{backgroundColor:'white'}}>
     <div className="ContactInfo">
         <h1 style={{marginLeft: "3%"}}>

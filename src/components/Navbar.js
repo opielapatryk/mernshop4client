@@ -4,7 +4,7 @@ import Navbar from 'react-bootstrap/Navbar';
 import Form from 'react-bootstrap/Form';
 import Button from 'react-bootstrap/Button';
 import NavDropdown from 'react-bootstrap/NavDropdown';
-
+import {Link} from 'react-router-dom'
 function AppNavbar() {
   return (
     <Navbar collapseOnSelect expand="lg" bg="dark" variant="dark">
@@ -22,10 +22,10 @@ function AppNavbar() {
             <Button variant="outline-danger">Search</Button>
           </Form>
           <Nav className="ms-auto">
-            <Nav.Link href="#aboutus">Contact</Nav.Link>
-            <Nav.Link href="#products">Products</Nav.Link>
-            <Nav.Link href="#rodo">RODO</Nav.Link>
-            <Nav.Link href="#contacts">About us</Nav.Link>
+            <Nav.Link><Link to="/" style={{textDecoration:"none", color:"gray"}}>Contact</Link></Nav.Link>
+            <Nav.Link><Link to="/products" style={{textDecoration:"none", color:"gray"}}>Products</Link></Nav.Link>
+            <Nav.Link><Link to="/rodo" style={{textDecoration:"none", color:"gray"}}>RODO</Link></Nav.Link>
+            <Nav.Link><Link to="/aboutus" style={{textDecoration:"none", color:"gray"}}>About us</Link></Nav.Link>
             <NavDropdown title="Language" id="basic-nav-dropdown">
               <NavDropdown.Item href="#English">English</NavDropdown.Item>
               <NavDropdown.Item href="#Polski">Polski</NavDropdown.Item>
