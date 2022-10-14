@@ -44,7 +44,7 @@ function Contact() {
       <Form.Group className="mb-3" controlId="formBasicCheckbox">
         <Form.Check type="checkbox" label="Check me out" />
       </Form.Group>
-      <Button variant="danger" type="submit" onClick={callApi} style={{marginBottom:"3%"}}>
+      <Button variant="danger" type="" onClick={callApi} style={{marginBottom:"3%"}}>
         Submit
       </Button>
     </Form>
