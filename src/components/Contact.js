@@ -5,7 +5,7 @@ function Contact() {
   return (
     <>
     <AppNavBar></AppNavBar>
-    <div style={{backgroundColor:'white'}}>
+    <div style={{backgroundColor:'white',color:"#282c34"}}>
     <div className="ContactInfo">
         <h1 style={{marginLeft: "3%"}}>
             Contact with us!
