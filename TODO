@@ -1,0 +1,9 @@
+./components/Products.js 
+
+Plan A:
+
+Podzielenie produktów na poszczególne marki po klinkięciu np legranda wyswietla sie jego produkty 
+
+Plan B: 
+
+Po kliknięciu legranda przekierowuje do products/:id i wyświetli kliknięty produkt 
