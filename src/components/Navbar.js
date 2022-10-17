@@ -9,7 +9,7 @@ function AppNavbar() {
   return (
     <Navbar collapseOnSelect expand="lg" bg="dark" variant="dark">
       <Container>
-        <Navbar.Brand href="#home" style={{letterSpacing: 2}}>Gp - Electro Automatic</Navbar.Brand>
+        <Link to="/" style={{textDecoration:"none"}}><Navbar.Brand style={{letterSpacing: 2}}>Gp - Electro Automatic</Navbar.Brand></Link>
         <Navbar.Toggle aria-controls="responsive-navbar-nav" />
         <Navbar.Collapse id="responsive-navbar-nav">
         <Form className="d-flex">
