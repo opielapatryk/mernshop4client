@@ -36,8 +36,8 @@ function AppNavbar() {
             <Nav.Link><Link to="/rodo" style={{textDecoration:"none", color:"gray"}}>GDPR</Link></Nav.Link>
             <Nav.Link><Link to="/aboutus" style={{textDecoration:"none", color:"gray"}}>About us</Link></Nav.Link>
             <NavDropdown title="Language" id="basic-nav-dropdown">
-              <NavDropdown.Item href="#"><img src={english} width="auto" height={"30"}/></NavDropdown.Item>
-              <NavDropdown.Item href="#"><img src={polish} width="auto" height={"30"}/></NavDropdown.Item>
+              <NavDropdown.Item href="#"><img src={english} alt="eng" width="auto" height={"30"}/></NavDropdown.Item>
+              <NavDropdown.Item href="#"><img src={polish} alt="pl" width="auto" height={"30"}/></NavDropdown.Item>
             </NavDropdown>
           </Nav>
           
