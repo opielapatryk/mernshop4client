@@ -4,12 +4,19 @@ import Navbar from 'react-bootstrap/Navbar';
 import Form from 'react-bootstrap/Form';
 import Button from 'react-bootstrap/Button';
 import NavDropdown from 'react-bootstrap/NavDropdown';
+import logo from './images/logo.png'
 import {Link} from 'react-router-dom'
 function AppNavbar() {
   return (
     <Navbar collapseOnSelect expand="lg" bg="dark" variant="dark">
       <Container>
-        <Link to="/" style={{textDecoration:"none"}}><Navbar.Brand style={{letterSpacing: 2}}>Gp - Electro Automatic</Navbar.Brand></Link>
+        <Link to="/" style={{textDecoration:"none"}}><Navbar.Brand><img
+              src={logo}
+              width="auto"
+              height="30"
+              className="d-inline-block align-top"
+              alt="React Bootstrap logo"
+            /></Navbar.Brand></Link>
         <Navbar.Toggle aria-controls="responsive-navbar-nav" />
         <Navbar.Collapse id="responsive-navbar-nav">
         <Form className="d-flex">
