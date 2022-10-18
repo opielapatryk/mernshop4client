@@ -34,7 +34,7 @@ function Contact() {
             </li>
         </ul>
       </div>
-      <div className="ContactForm" style={{marginLeft: "3%",marginRight:"3%"}}>
+      <div className="ContactForm" style={{marginLeft: "3%",marginRight:"3%",height:"100vh"}}>
       <Form>
       <Form.Group className="mb-3" controlId="formBasicEmail">
         <Form.Label style={{fontWeight:"bold"}}>Email address</Form.Label>
