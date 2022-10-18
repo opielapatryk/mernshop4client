@@ -5,7 +5,7 @@ function Aboutus(){
         <>
         <AppNavBar/>
         <div style={{color:"white", marginLeft:"3%", minHeight:"100vh"}}>
-        <h1>About us! </h1>
+        <h1 style={{textAlign:"center", paddingTop:"1%"}}>About us! </h1>
          <h5>Lorem Ipsum</h5>
          <p >Neque porro quisquam est qui dolorem ipsum quia dolor sit amet, consectetur, <br></br>
          Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse pretium sagittis velit, id facilisis metus auctor vel. Duis venenatis arcu ut facilisis tempor :</p>

@@ -4,7 +4,7 @@ function RODO(){
         <>
         <AppNavBar/>
         <div style={{color:"white", marginLeft:"3%", minHeight:"100vh"}}>
-        <h1>GDPR</h1>
+        <h1 style={{textAlign:"center", paddingTop:"1%"}}>GDPR</h1>
          <h5>GDPR - Information obligation</h5>
          <p >Ladies and Gentlemen, <br></br>
          below some important information regarding the principles of safe processing of your personal data by our company. Due to the changes resulting from the GDPR, please read the information clause below :</p>
