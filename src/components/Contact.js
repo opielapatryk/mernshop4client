@@ -7,7 +7,7 @@ function Contact() {
     <AppNavBar></AppNavBar>
     <div style={{backgroundColor:'white',color:"#282c34"}}>
     <div className="ContactInfo">
-        <h1 style={{marginLeft: "3%"}}>
+        <h1 style={{textAlign:"center", paddingTop:"1%"}}>
             Contact with us!
         </h1>
         <ul style={{listStyleType: "none",marginLeft: "3%"}}>
