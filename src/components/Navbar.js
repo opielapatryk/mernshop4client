@@ -31,7 +31,7 @@ function AppNavbar() {
           <Nav className="ms-auto">
             <Nav.Link><Link to="/" style={{textDecoration:"none", color:"gray"}}>Contact</Link></Nav.Link>
             <Nav.Link><Link to="/products" style={{textDecoration:"none", color:"gray"}}>Products</Link></Nav.Link>
-            <Nav.Link><Link to="/rodo" style={{textDecoration:"none", color:"gray"}}>RODO</Link></Nav.Link>
+            <Nav.Link><Link to="/rodo" style={{textDecoration:"none", color:"gray"}}>GDPR</Link></Nav.Link>
             <Nav.Link><Link to="/aboutus" style={{textDecoration:"none", color:"gray"}}>About us</Link></Nav.Link>
             <NavDropdown title="Language" id="basic-nav-dropdown">
               <NavDropdown.Item href="#English">English</NavDropdown.Item>
