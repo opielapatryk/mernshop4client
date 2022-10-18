@@ -4,25 +4,25 @@ function RODO(){
         <>
         <AppNavBar/>
         <div style={{color:"white", marginLeft:"3%", minHeight:"100vh"}}>
-        <h1>RODO</h1>
-         <h5>Rodo - Obowiązek informacyjny</h5>
-         <p >Szanowni Państwo, <br></br>
-poniżej kilka ważnych informacji dotyczących zasad bezpiecznego przetwarzania Państwa danych osobowych przez naszą firmę. W związku ze zmianami wynikającymi z RODO prosimy o zapoznanie się z poniższą klauzulą informacyjną :</p>
+        <h1>GDPR</h1>
+         <h5>GDPR - Information obligation</h5>
+         <p >Ladies and Gentlemen, <br></br>
+         below some important information regarding the principles of safe processing of your personal data by our company. Due to the changes resulting from the GDPR, please read the information clause below :</p>
 
-         <h5>KLAUZULA INFORMACYJNA</h5>
-         <p >Od dnia 25 Maja 2018r weszło w życie Rozporządzenie Parlamentu Europejskiego i Rady (UE) 2016/679 z dnia 27 kwietnia 2016r w sprawie ochrony osób fizycznych, dotyczące przetwarzania danych osobowych i ich swobodnego przepływu. W związku z powyższym informujemy, że administratorem Państwa danych osobowych jest ...... z siedzibą w ..........   . Państwa dane osobowe są przetwarzane zgodnie z art. 6 Rozporządzenia, ust 1, pkt. b, c oraz f (w odniesieniu do wymienionego punktu): W celu realizacji zlecenia zakupu lub sprzedaży i są przechowywane przez okres 6 lat od momentu, w którym operacje, transakcje zakupu lub sprzedaży zostały ostatecznie zakończone, a zobowiązania spłacone, rozliczone lub przedawnione, a także do ustania wszelkich gwarancji i rękojmi z tytułu realizacji umowy lub zlecenia. Podanie przez Państwa danych osobowych jest dobrowolne, jednak niepodanie uniemożliwi realizację umowy lub zlecenia. Państwa dane osobowe przekazujemy jedynie w zakresie niezbędnym do realizacji złożonych przez Państwa zamówień, podmiotom wykonującym usługi pocztowe, kurierskie, księgowe, prawne, informatyczne, z którymi współpracujemy.</p><br></br>
-         <p >Mają Państwo prawo do:</p>
+         <h5>INFORMATION CLAUSE</h5>
+         <p >From May 25, 2018, Regulation (EU) 2016/679 of the European Parliament and of the Council of April 27, 2016 on the protection of individuals, regarding the processing of personal data and their free movement entered into force. In connection with the above, we would like to inform you that the administrator of your personal data is ...... based in ........... Your personal data is processed in accordance with Art. 6 of the Regulation, section 1, point b, c and f (with reference to this point): To execute a purchase or sale order and are kept for a period of 6 years from the moment when the operations, purchase or sale transactions have been finally completed and the obligations have been paid, settled or expired, and until the end of all guarantees and warranties for the performance of the contract or order. Providing your personal data is voluntary, but failure to do so will make it impossible to perform the contract or order. We provide your personal data only to the extent necessary to implement your orders to entities providing postal, courier, accounting, legal and IT services with whom we cooperate.</p><br></br>
+         <p >You have the right to:</p>
         <ul>
-            <li >dostępu do treści swoich danych,</li>
-            <li >sprostowania, usunięcia lub ograniczenia przetwarzania danych,</li>
-            <li >przenoszenia danych,</li>
-            <li >wniesienia sprzeciwu,</li>
-            <li >cofnięcia zgody w dowolnym momencie bez wpływu na zgodność z prawem przetwarzania, którego dokonano na podstawie zgody przed jej cofnięciem.</li>
+            <li >access to the content of your data,</li>
+            <li >rectification, deletion or limitation of data processing,</li>
+            <li >data portability,</li>
+            <li >raise an objection,</li>
+            <li >withdraw consent at any time without affecting the lawfulness of processing based on consent before its withdrawal.</li>
         </ul>
-        <p >Ponadto mają Państwo prawo do wniesienia skargi do Prezesa Urzędu ds. Ochrony Danych Osobowych w przypadku, gdy uznają Państwo, że przetwarzanie danych osobowych narusza przepisy rozporządzenia.</p>
-        <p >Szczegółowe informacje na temat przetwarzanych przez nas danych osobowych znajdują się w naszej Polityce prywatności
+        <p >In addition, you have the right to lodge a complaint with the President of the Office for Personal Data Protection if you believe that the processing of personal data violates the provisions of the Regulation.</p>
+        <p >Detailed information on the personal data we process can be found in our Privacy Policy
 </p>
-        <p>W przypadku pytań prosimy o kontakt: ............
+        <p>If you have any questions, please contact us: ............
 
 </p>
         </div>
