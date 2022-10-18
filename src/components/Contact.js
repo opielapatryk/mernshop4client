@@ -15,22 +15,22 @@ function Contact() {
                 <h3>Poland</h3>
             </li>
             <li>
-                <h5>St:</h5>Inwalidów Wojennych 10
+                <h5 style={{display:"inline"}}>St: </h5>Inwalidów Wojennych 10
             </li>
             <li>
-                <h5>City:</h5> Jaworzno 43-600
+                <h5 style={{display:"inline"}}>City: </h5>Jaworzno 43-600
             </li>
             <li>
-                <h5>TIN:</h5> 123123123
+                <h5 style={{display:"inline"}}>TIN: </h5>123123123
             </li>
             <li>
-                <h5>Phone Nr:</h5>782782782
+                <h5 style={{display:"inline"}}>Phone Nr: </h5>782782782
             </li>
             <li>
-              <h5>Allegro:</h5><a href='https://allegro.pl/uzytkownik/GPAutomatic' rel="noopener noreferrer" target={"_blank"}>GP Automatic</a>
+              <h5 style={{display:"inline"}}>Allegro: </h5><a href='https://allegro.pl/uzytkownik/GPAutomatic' rel="noopener noreferrer" target={"_blank"}>GP Automatic</a>
             </li>
             <li>
-              <h5>Ebay:</h5><a href='https://www.ebay.com/' rel="noopener noreferrer" target={"_blank"}>GP Automatic</a>
+              <h5 style={{display:"inline"}}>Ebay: </h5><a href='https://www.ebay.com/' rel="noopener noreferrer" target={"_blank"}>GP Automatic</a>
             </li>
         </ul>
       </div>
