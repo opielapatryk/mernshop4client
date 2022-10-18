@@ -8,7 +8,14 @@ import logo from './images/logo.png'
 import polish from './images/polish.png'
 import english from './images/english.png'
 import {Link} from 'react-router-dom'
+import { useTranslation } from 'react-i18next';
+
 function AppNavbar() {
+  const {t,i18n} = useTranslation()
+  const handleChangeLang = (lng)=>{
+    i18n.changeLanguage(lng)
+    localStorage.setItem("lng",lng)
+  }
   return (
     <Navbar collapseOnSelect expand="lg" bg="dark" variant="dark">
       <Container>
@@ -24,20 +31,20 @@ function AppNavbar() {
         <Form className="d-flex">
             <Form.Control
               type="search"
-              placeholder="Search"
+              placeholder={t("Search")}
               className="me-2"
               aria-label="Search"
             />
-            <Button variant="outline-danger">Search</Button>
+            <Button variant="outline-danger">{t("Search")}</Button>
           </Form>
           <Nav className="ms-auto">
-            <Nav.Link><Link to="/" style={{textDecoration:"none", color:"gray"}}>Contact</Link></Nav.Link>
-            <Nav.Link><Link to="/products" style={{textDecoration:"none", color:"gray"}}>Products</Link></Nav.Link>
-            <Nav.Link><Link to="/rodo" style={{textDecoration:"none", color:"gray"}}>GDPR</Link></Nav.Link>
-            <Nav.Link><Link to="/aboutus" style={{textDecoration:"none", color:"gray"}}>About us</Link></Nav.Link>
-            <NavDropdown title="Language" id="basic-nav-dropdown">
-              <NavDropdown.Item href="#"><img src={english} alt="eng" width="auto" height={"30"}/></NavDropdown.Item>
-              <NavDropdown.Item href="#"><img src={polish} alt="pl" width="auto" height={"30"}/></NavDropdown.Item>
+            <Nav.Link><Link to="/" style={{textDecoration:"none", color:"gray"}}>{t("Contact")}</Link></Nav.Link>
+            <Nav.Link><Link to="/products" style={{textDecoration:"none", color:"gray"}}>{t("Products")}</Link></Nav.Link>
+            <Nav.Link><Link to="/rodo" style={{textDecoration:"none", color:"gray"}}>{t("GDPR")}</Link></Nav.Link>
+            <Nav.Link><Link to="/aboutus" style={{textDecoration:"none", color:"gray"}}>{t("About us")}</Link></Nav.Link>
+            <NavDropdown title={t("Language")} id="basic-nav-dropdown">
+              <NavDropdown.Item onClick={()=>handleChangeLang("en")}><img src={english} alt="eng" width="auto" height={"30"}/></NavDropdown.Item>
+              <NavDropdown.Item onClick={()=>handleChangeLang("pl")}><img src={polish} alt="pl" width="auto" height={"30"}/></NavDropdown.Item>
             </NavDropdown>
           </Nav>
           
