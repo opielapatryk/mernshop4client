@@ -26,6 +26,12 @@ function Contact() {
             <li>
                 <h5>Phone Nr:</h5>782782782
             </li>
+            <li>
+              <h5>Allegro:</h5><a href='https://allegro.pl/uzytkownik/GPAutomatic' target={"_blank"}>GP Automatic</a>
+            </li>
+            <li>
+              <h5>Ebay:</h5><a href='https://www.ebay.com/' target={"_blank"}>GP Automatic</a>
+            </li>
         </ul>
       </div>
       <div className="ContactForm" style={{marginLeft: "3%",marginRight:"3%"}}>
