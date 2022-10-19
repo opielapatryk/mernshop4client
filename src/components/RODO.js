@@ -6,7 +6,7 @@ function RODO(){
     return(
         <>
         <AppNavBar/>
-        <div style={{color:"white", marginLeft:"3%", minHeight:"100vh"}}>
+        <div style={{color:"black", marginLeft:"3%", minHeight:"100vh"}}>
         <h1 style={{textAlign:"center", paddingTop:"1%"}}>{t("GDPR")}</h1>
          <h5>{t("GDPR - Information obligation")}</h5>
          <p >{t("Ladies and Gentlemen,")} <br></br>

@@ -17,7 +17,7 @@ function AppNavbar() {
     localStorage.setItem("lng",lng)
   }
   return (
-    <Navbar collapseOnSelect expand="lg" bg="dark" variant="dark">
+    <Navbar collapseOnSelect expand="lg" bg="light" variant="dark">
       <Container>
         <Link to="/" style={{textDecoration:"none"}}><Navbar.Brand><img
               src={logo}
@@ -42,7 +42,7 @@ function AppNavbar() {
             <Nav.Link><Link to="/products" style={{textDecoration:"none", color:"gray"}}>{t("Products")}</Link></Nav.Link>
             <Nav.Link><Link to="/rodo" style={{textDecoration:"none", color:"gray"}}>{t("GDPR")}</Link></Nav.Link>
             <Nav.Link><Link to="/aboutus" style={{textDecoration:"none", color:"gray"}}>{t("About us")}</Link></Nav.Link>
-            <NavDropdown align="end" title={t("Language")} id="basic-nav-dropdown">
+            <NavDropdown align="end" title={<span className="text-dark">{t("Language")}</span>} id="basic-nav-dropdown">
               <NavDropdown.Item onClick={()=>handleChangeLang("en")}><img src={english} alt="eng" width="auto" height={"30"}/></NavDropdown.Item>
               <NavDropdown.Item onClick={()=>handleChangeLang("pl")}><img src={polish} alt="pl" width="auto" height={"30"}/></NavDropdown.Item>
             </NavDropdown>
