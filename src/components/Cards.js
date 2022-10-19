@@ -32,10 +32,10 @@ function AppCard() {
       <Card  key={index}>
         <Card.Img variant="top" src={post.img} style={{width:"20%",paddingTop:"1%",paddingLeft:"1%"}}/>
         <Card.Body>
-          <Card.Title>Code: {post.code}</Card.Title>
+          <Card.Title>{t("Code")}: {post.code}</Card.Title>
         </Card.Body>
         <Card.Footer >
-        <Card.Title>Price: {post.price}</Card.Title>
+        <Card.Title>{t("Price")}: {post.price}</Card.Title>
         </Card.Footer>
       </Card>
       
