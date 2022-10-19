@@ -1,9 +1,23 @@
+import React, { useRef } from 'react';
+import emailjs from '@emailjs/browser';
 import Button from 'react-bootstrap/Button';
 import Form from 'react-bootstrap/Form';
 import AppNavBar from './Navbar'
 import {useTranslation} from "react-i18next"
 function Contact() {
   const {t} = useTranslation()
+  const form = useRef();
+
+  const sendEmail = (e) => {
+
+    emailjs.sendForm('service_d9tlukb', 'template_ft2eifo', form.current, 'kaouOwRuPqgxTDo9Q')
+      .then((result) => {
+          console.log(result.text);
+      }, (error) => {
+          console.log(error.text);
+      });
+  };
+
   return (
     <>
     <AppNavBar></AppNavBar>
@@ -37,10 +51,10 @@ function Contact() {
         </ul>
       </div>
       <div className="ContactForm" style={{marginLeft: "3%",marginRight:"3%",height:"100vh"}}>
-      <Form>
+      <Form ref={form} onSubmit={sendEmail}>
       <Form.Group className="mb-3" controlId="formBasicEmail">
         <Form.Label style={{fontWeight:"bold"}}>{t("Email Adress")}</Form.Label>
-        <Form.Control type="email" placeholder={t("Enter Email")} />
+        <Form.Control type="email" placeholder={t("Enter Email")} name="user_email"/>
         <Form.Text className="text-muted">
           {t("We'll never share your email with anyone else.")}
         </Form.Text>
@@ -48,13 +62,10 @@ function Contact() {
 
       <Form.Group className="mb-3" controlId="formBasicMessage">
         <Form.Label style={{fontWeight:"bold"}}>{t("Message")}</Form.Label>
-        <Form.Control type="text" placeholder={t("Message")} />
+        <Form.Control type="text" placeholder={t("Message")} name="message"/>
       </Form.Group>
 
-      <Form.Group className="mb-3" controlId="formBasicCheckbox">
-        <Form.Check type="checkbox" label={t("Check me out")} />
-      </Form.Group>
-      <Button variant="danger" type="" onClick={callApi} style={{marginBottom:"3%"}}>
+      <Button variant="danger" type="submit" style={{marginBottom:"3%"}}>
       {t("Submit")}
       </Button>
     </Form>
