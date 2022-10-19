@@ -4,9 +4,6 @@ import Navbar from 'react-bootstrap/Navbar';
 import Form from 'react-bootstrap/Form';
 import Button from 'react-bootstrap/Button';
 import NavDropdown from 'react-bootstrap/NavDropdown';
-import logo from './images/logo.png'
-import polish from './images/polish.png'
-import english from './images/english.png'
 import {Link} from 'react-router-dom'
 import { useTranslation } from 'react-i18next';
 
@@ -20,7 +17,7 @@ function AppNavbar() {
     <Navbar collapseOnSelect expand="lg" bg="light" variant="light">
       <Container>
         <Link to="/" style={{textDecoration:"none"}}><Navbar.Brand><img
-              src={logo}
+              src='./images/logo.png'
               width="auto"
               height="30"
               className="d-inline-block align-top"
@@ -43,8 +40,8 @@ function AppNavbar() {
             <Nav.Link><Link to="/rodo" style={{textDecoration:"none", color:"gray"}}>{t("GDPR")}</Link></Nav.Link>
             <Nav.Link><Link to="/aboutus" style={{textDecoration:"none", color:"gray"}}>{t("About us")}</Link></Nav.Link>
             <NavDropdown align="end" title={<span className="text-dark">{t("Language")}</span>} id="basic-nav-dropdown">
-              <NavDropdown.Item onClick={()=>handleChangeLang("en")}><img src={english} alt="eng" width="auto" height={"30"}/></NavDropdown.Item>
-              <NavDropdown.Item onClick={()=>handleChangeLang("pl")}><img src={polish} alt="pl" width="auto" height={"30"}/></NavDropdown.Item>
+              <NavDropdown.Item onClick={()=>handleChangeLang("en")}><img src='./images/english.png' alt="eng" width="auto" height={"30"}/></NavDropdown.Item>
+              <NavDropdown.Item onClick={()=>handleChangeLang("pl")}><img src='./images/polish.png' alt="pl" width="auto" height={"30"}/></NavDropdown.Item>
             </NavDropdown>
           </Nav>
         </Navbar.Collapse>
