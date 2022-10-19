@@ -17,7 +17,7 @@ function AppNavbar() {
     localStorage.setItem("lng",lng)
   }
   return (
-    <Navbar collapseOnSelect expand="lg" bg="light" variant="dark">
+    <Navbar collapseOnSelect expand="lg" bg="light" variant="light">
       <Container>
         <Link to="/" style={{textDecoration:"none"}}><Navbar.Brand><img
               src={logo}
