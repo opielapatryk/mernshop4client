@@ -5,6 +5,7 @@ import {useState} from "react";
 import Form from 'react-bootstrap/Form';
 import Button from 'react-bootstrap/Button';
 import { useTranslation } from 'react-i18next';
+import style from './cards.css'
 function AppCard() {
   const [query, setQuery] = useState("")
   const {t} = useTranslation()
@@ -30,7 +31,7 @@ function AppCard() {
   }).map((post, index) => (
   <CardGroup>
       <Card  key={index}>
-        <Card.Img variant="top" src={post.img} style={{width:"20%",paddingTop:"1%",paddingLeft:"1%"}}/>
+        <Card.Img id="cardimg" className='img-fluid md' variant="top" src={post.img} style={{paddingTop:"1%",paddingLeft:"1%",paddingRight:"1%"}}/>
         <Card.Body>
           <Card.Title>{t("Code")}: {post.code}</Card.Title>
         </Card.Body>
