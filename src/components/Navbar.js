@@ -26,13 +26,6 @@ function AppNavbar() {
         <Navbar.Toggle aria-controls="responsive-navbar-nav" />
         <Navbar.Collapse id="responsive-navbar-nav">
         <Form className="d-flex">
-            <Form.Control
-              type="search"
-              placeholder={t("Search")}
-              className="me-2"
-              aria-label="Search"
-            />
-            <Button variant="outline-danger">{t("Search")}</Button>
           </Form>
           <Nav className="ms-auto">
             <Nav.Link><Link to="/" style={{textDecoration:"none", color:"gray"}}>{t("Contact")}</Link></Nav.Link>
