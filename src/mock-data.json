@@ -1,0 +1,21 @@
+[{
+    "id": 1,
+    "code": "3pb10",
+    "img": "./images/3p b 10.jpg",
+    "price":"999$"
+  }, {
+    "id": 2,
+    "code": "a9d56610",
+    "img": "./images/a9d56610.jpg",
+    "price":"2343$"
+  }, {
+    "id": 3,
+    "code": "ad-atm60-ka3pr",
+    "img": "./images/ad-atm60-ka3pr.jpg",
+    "price":"2349$"
+  }, {
+    "id": 4,
+    "code": "bim-unt-ap6x",
+    "img": "./images/bim-unt-ap6x.jpg",
+    "price":"123$"
+  }]
